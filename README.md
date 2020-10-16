@@ -13,14 +13,14 @@ B - element dodający dodatkową broń typu "blaster" (maks. 5);
 Sterowanie: sterowanie statkiem bohatera odbywa się przy użyciu kalwiszy WSDA, lub strzałek kierunkowych. Za oddanie strzału odpowiada przycisk spacji.
 
 Skrypty:
-BoundsCheck - odpowiada za utrzymywanie na ekranie wybranych obiektów;
-Enemy - klasa nadrzędna wroga;
-Enemy1, Enemy2, Enemy3, Enemy4 - klasy dziedziczące po klasie Enemy, odpowiadające za rodzaj wrogów;
-Hero - klasa odpowiada za poruszanie się statkiem bogatera, oraz podnoszenie obiektów wzmacniających;
-Main - klasa zarządzająca grą, odpowiada za tworzenie losowego wroga nad krawędzią ekranu, oraz tworzenie obiektów wzmacniających;
-Parallax - odpowiada za ruch tła w grze;
-PowerUp - klasa obiektów wzmacniających;
-Projectile - klasa pocisku bohatera, definiująca typ broni, z której oddano strzał;
-Shield - odpowiada za zmianę wyglądu tarczy bohatera, w zależności od jej poziomu;
-Utils - klasa udostępniona przez autora wyżej wymienionej książki jako narzędzie. Wykorzystana do wykonania płynnego ruchu statków w oparciu o krzywe Beziera;
-Weapon - klasa która definiuje rodzaje broni;
+- BoundsCheck - odpowiada za utrzymywanie na ekranie wybranych obiektów;
+- Enemy - klasa nadrzędna wroga;
+- Enemy1, Enemy2, Enemy3, Enemy4 - klasy dziedziczące po klasie Enemy, odpowiadające za rodzaj wrogów;
+- Hero - klasa odpowiada za poruszanie się statkiem bogatera, oraz podnoszenie obiektów wzmacniających;
+- Main - klasa zarządzająca grą, odpowiada za tworzenie losowego wroga nad krawędzią ekranu, oraz tworzenie obiektów wzmacniających;
+- Parallax - odpowiada za ruch tła w grze;
+- PowerUp - klasa obiektów wzmacniających;
+- Projectile - klasa pocisku bohatera, definiująca typ broni, z której oddano strzał;
+-Shield - odpowiada za zmianę wyglądu tarczy bohatera, w zależności od jej poziomu;
+- Utils - klasa udostępniona przez autora wyżej wymienionej książki jako narzędzie. Wykorzystana do wykonania płynnego ruchu statków w oparciu o krzywe Beziera;
+- Weapon - klasa która definiuje rodzaje broni;
